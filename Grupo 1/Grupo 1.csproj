@@ -43,6 +43,13 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Entity\Biblioteca.cs" />
+    <Compile Include="Entity\Emprestimo.cs" />
+    <Compile Include="Entity\Enum\Status.cs" />
+    <Compile Include="Entity\ItemBiblioteca.cs" />
+    <Compile Include="Entity\Livro.cs" />
+    <Compile Include="Entity\Usuario.cs" />
+    <Compile Include="Interface\LivroRepository.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
